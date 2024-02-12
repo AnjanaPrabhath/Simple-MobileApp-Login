@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SimpleLogin" parent="Theme.Material3.DayNight.NoActionBar">
+        <!--primary colors-->
+        <item name="colorPrimary">@color/MyPrimary</item>
+        <item name="colorPrimaryVariant">@color/MyPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!--secondory colors-->
+        <item name="colorSecondary">@color/MySecondery</item>
+        <item name="colorSecondaryVariant">@color/MySecondery</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!--status bar-->
+        <item name="android:statusBarColor">@color/MyPrimary</item>
+
+    </style>
+</resources>
